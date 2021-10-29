@@ -7,7 +7,12 @@ function autoScroll() {
     if (counter == 0){
         return;
     }
-    window.scrollBy(0,2);
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+        window.scrollBy(0,10)
+       }
+    else{
+        window.scrollBy(0,2);
+    }
     scrolldelay = setTimeout(autoScroll,2);  
     
 }
