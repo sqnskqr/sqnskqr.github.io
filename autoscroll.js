@@ -8,7 +8,7 @@ function autoScroll() {
         return;
     }
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        window.scrollBy(0,10)
+        window.scrollBy(0,1000)
        }
     else{
         window.scrollBy(0,2);
