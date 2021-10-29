@@ -1,0 +1,97 @@
+* {
+    font-family: Palatino;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: skyblue;
+}
+.top-accent {
+    background-color: white;
+    height: 60vh;
+    width: 70vw;
+    position: absolute;
+}
+
+.landing {
+    width: 100%;
+    height: 100%;
+}
+.welcome {
+    background-color: #EBA487;
+    height: 40vh;
+    width: 80vw;
+    position: relative;
+    top:30vh;
+    left: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 5vmin;
+    text-align: center;
+    
+}
+
+#Name {
+    margin: 0%;
+    padding: 0%;
+    margin-top: 2%;
+}
+
+#Segueway {
+    margin-bottom: 1.5%;
+    padding: 0%;
+    font-size: 3.5vmin;
+    animation: blinker3 1s ease-in-out infinite alternate;  
+}
+
+
+
+.navigation a{
+    margin: 0%;
+    padding: 0% 2%;
+    font-size: 3vmin;
+
+}
+
+#About-Me {
+    margin-top: 70vh;
+}
+
+@keyframes blinker3 { to { opacity: 0; } }
+
+/*
+.top-accent {
+    height: 60vh;
+    width: 70vw;
+    background-color: rgb(255, 255, 255);
+    z-index: 0;
+    position: absolute;
+    display: block;
+    top:0;
+    left:0;
+
+}
+
+.welcome {
+    height: 70vh;
+    width: 60vw;
+    background-color: #EBA487;
+    color: white;
+    display: inline-block;
+    position: relative;
+    top:20vh;
+    left:20vw;
+
+}
+
+#About-Me {
+    margin-top: 100vh;
+}
+
+#Name {
+    font-size: 3vh;
+}
+*/

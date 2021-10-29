@@ -1,39 +1,53 @@
 <!DOCTYPE html>
   <html>
-      <body style="background-color: rgb(255, 255, 255);">
-    <!--welcome section-->
-    <section>
-        <h1>
-            <!--Name-->
-            Sanskar Siddharth
-        </h1>
-        <h3>
-            <!--Enter the Gallery-->
-            <em>Enter The Gallery.</em>
-        </h3>
-    </section>
-    <br>
-    <br>
-    <h3>Navigation</h3>
-    <nav>
-        <!--About Me-->
-        <a href="#About Me">About Me</a>
-        <!--Technical Projects-->
-        <a href="#Technical Projects">Technical Projects</a>
-        <!--Personal Hobbies-->
-        <a href="#Personal Interests">Personal Interests</a>
-    </nav>
+      <head>
+          <title>Sanskar Siddharth</title>
+          <link href="style.css" rel="stylesheet">
+      </head>
+    <body>
+<div class="landing">
+    <!--accent div-->
+    <div class="top-accent">
+        <h3></h3>
+    </div>
+
+    <!--welcome div-->
+    <div class="welcome">
+        <div class= "welcome-text">
+            <h1 id="Name">
+                <!--Name-->
+                Sanskar Siddharth
+            </h1>
+            <!--autoscrollscript-->
+            <script src="autoscroll.js"></script>
+            <h2 id="Segueway" onclick="autoScroll()">
+                <!--Enter the Gallery autoscroll-->
+                <em>Enter the Gallery: Click to Start</em>
+            </h2>
+            <nav class="navigation">
+                <!--About Me-->
+                <a href="#About Me">About Me</a>
+                <!--Technical Projects-->
+                <a href="#Technical Projects">Technical Projects</a>
+                <!--Personal Hobbies-->
+                <a href="#Personal Interests">Personal Interests</a>
+            </nav>     
+        </div>
+    </div>   
+</div>
+    
+    
 
 
 
 <!--About ME-->
-<section id="About Me">
+<div id="About-Me">
     <h1>
         About Me
     </h1>
     <p>
         <!--Description-->
-        Hello there, I'm Sanskar Siddharth, a second year Berkeley EECS student. I'm specifically interested in Machine Learning, Quantitative Finance, Software Engineering, and Extended Reality. Outside of my technical interests, photography, music, and reading are my primary destress activities. 
+        Hello there! I'm Sanskar Siddharth, a second year Electrical Engineering and Computer Science at UC Berkeley. I'm specifically interested in Machine Learning, Quantitative Finance, Software Engineering, and Extended Reality. Outside of my technical interests, photography, music, and reading are my primary destress activities. 
         I also love running and playing sports in general. I’m a big fan of catching up on sleep, spending time with my friends, and watching an unnecessary amount of Youtube and Netflix. Ever since quarantine, I’ve become an aspiring chef. 
         I’m able to comfortable make paninis now, so it’s a very slow journey but we’ll get there. 
     </p>
@@ -51,16 +65,13 @@
     
     <br>
     <br>
-    <!--Linkedin and Github-->
-    <h3>View Resume</h3>
-    <img src='files/webresumeimage.jpg' alt="My Resume">
-    <h1><a href="https://drive.google.com/file/d/1dCD8gZ0UR1kbVF6f_2U7UjhFwtrDtdKx/view?usp=sharing">Download Resume</a></h1>
+    <h1><a href="https://drive.google.com/file/d/1dCD8gZ0UR1kbVF6f_2U7UjhFwtrDtdKx/view?usp=sharing">View Resume</a></h1>
     <!--Resume-->
 
-</section>
+</div>
 
 <!--Technical Projects-->
-<section id="Technical Projects">
+<div id="Technical Projects">
     <h1>Technical Projects</h1>
 
      <!--Project Pacman-->
@@ -93,9 +104,9 @@
         The first step was understanding the syntax of a functional programming language. 
         After fully learning how to use the language, I was able to use higher order funtions, object-oriented programming, string parsing, and allowing for interactive user input.
     </p>
-</section>
+</div>
 
-<section id="Personal Interests">
+<div id="Personal Interests">
     <!--Personal Hobbies-->
     <h1>Personal Interests</h1>
     <!--Photography-->
@@ -134,7 +145,7 @@
             <td><a href="https://en.wikipedia.org/wiki/When_Breath_Becomes_Air" target="_blank">When Breath Becomes Air, <br> Paul Kalanithi</a></td>
         </tr>
     </table>
-</section>
+</div>
 <footer>
     <br>
     <ul>
