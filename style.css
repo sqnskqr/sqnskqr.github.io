@@ -63,6 +63,8 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 #aboutPic {
     /*height: 65vmin;
@@ -71,10 +73,10 @@ body {
     min-width: 277px; 
     box-shadow: */
     width: 37vw;
+    min-width: none;
     height: 55.5vw;
      box-shadow:
-    -2vmin 2vmin #EBA487,
-     2vmin -2vmin white;
+     2vmin -2vmin 5px white;
      margin: 3vmin;
 
 }
@@ -85,9 +87,7 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     width: 40vw;
-    min-width: 300px;
-    margin-left: 10%;
-    margin-right: 0%;
+    min-width: 600px;
 }
 
 .left-about {
@@ -95,18 +95,20 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 10vmin, 4vmin, 0, 4vmin;
 
 }
 .description {
-    font-size: 1.2vw;
+    font-size: 1.46vw;
     line-height: 2vw;
     word-spacing: .1vmin;
     margin: 0%;
     padding: 0% 1vmin;
+    margin-top: 1vh;
 }
 .about-me-text {
     margin: 0%;
-    padding: 1vmin;
+    padding: .7vh;
     font-size: 5vmin;
     background-color: #c187eb;
     box-shadow: -1vmin 1vmin #ebd587;
@@ -119,14 +121,14 @@ body {
 }
 
 .resume {
-    margin: .4vmin 1vmin 2vmin 1vmin;
+    margin: 0vmin 1vmin 2vmin 1vmin;
 }
 
 .icon {
     height: 4vmin;
     width: 4vmin;
     filter: invert(100%);
-    margin: .2vmin 1vmin 2vmin 1vmin;
+    margin: 0vmin 1vmin 2vmin 1vmin;
 }
 
 .github {
@@ -138,8 +140,9 @@ body {
     width: 30vw;
     background-color: #EBA487;
     min-width: 450px;
-    padding-right: 2vmin;
-    margin-left: 1%;
+    padding: 2vmin;
+    margin: 1%;
+    margin-top: 3%;
 }
 
 .mood-content {
@@ -163,6 +166,9 @@ body {
 .spotify {
     padding: 0;
     margin: 1vmin;
+}
+#Technical-Projects {
+    margin-top: 30vh;
 }
 
 @keyframes blinker3 { to { opacity: 0; } }
