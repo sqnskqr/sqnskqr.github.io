@@ -1,3 +1,5 @@
+var scrollPos = 0;
+
 function autoScroll() {
     var counter = 1;
     if (window.pageYOffset + window.innerHeight >= document.body.scrollHeight){
@@ -8,7 +10,7 @@ function autoScroll() {
         return;
     }
     if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        window.scrollBy(0,1000)
+        window.scrollBy(0,10)
        }
     else{
         window.scrollBy(0,2);

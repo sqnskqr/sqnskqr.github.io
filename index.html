@@ -20,18 +20,21 @@
             </h1>
             <!--autoscrollscript-->
             <script src="autoscroll.js"></script>
-            <h2 id="Segueway" onclick="autoScroll()">
-                <!--Enter the Gallery autoscroll-->
-                <em>Enter the Gallery: Click to Start</em>
+            <h2 id="Segueway" onclick="window.location.href='#About-Me'">
+                <!--Enter the Gallery About Me-->
+                <em>Enter the Gallery</em>
             </h2>
             <nav class="navigation">
+
                 <!--About Me-->
-                <a href="#About Me">About Me</a>
+                <!--a href="#About Me">About Me</a-->
                 <!--Technical Projects-->
                 <a href="#Technical Projects">Technical Projects</a>
                 <!--Personal Hobbies-->
                 <a href="#Personal Interests">Personal Interests</a>
-            </nav>     
+            </nav>
+                
+             
         </div>
     </div>   
 </div>
@@ -42,32 +45,55 @@
 
 <!--About ME-->
 <div id="About-Me">
-    <h1>
-        About Me
-    </h1>
-    <p>
-        <!--Description-->
-        Hello there! I'm Sanskar Siddharth, a second year Electrical Engineering and Computer Science at UC Berkeley. I'm specifically interested in Machine Learning, Quantitative Finance, Software Engineering, and Extended Reality. Outside of my technical interests, photography, music, and reading are my primary destress activities. 
-        I also love running and playing sports in general. I’m a big fan of catching up on sleep, spending time with my friends, and watching an unnecessary amount of Youtube and Netflix. Ever since quarantine, I’ve become an aspiring chef. 
-        I’m able to comfortable make paninis now, so it’s a very slow journey but we’ll get there. 
-    </p>
-    <figure>
-        <a href="https://www.linkedin.com/in/sanskarsiddharth/" target="_blank">
-            <img src="files/linkedin.png" title="Linkedin Icon By FreePik" alt="Linkedin Icon Link"></a>
-    </figure>
-
-    
-    <!--Github-->
-    <figure>
-        <a href="https://github.com/sqnskqr" target="_blank">
-            <img src="files/github-character.png" title="Github Icon By David Gandy" alt="Github Icon Link"></a>
-    </figure>
-    
     <br>
-    <br>
-    <h1><a href="https://drive.google.com/file/d/1dCD8gZ0UR1kbVF6f_2U7UjhFwtrDtdKx/view?usp=sharing">View Resume</a></h1>
-    <!--Resume-->
+    <img id="aboutPic" src="files/IMG_7140 2.jpg"/>
+    <div class="about-content">
 
+    <div class="left-about">
+        <h3 class="about-me-text">About Me</h3>
+        <div class="description-content">
+            <div class="description">
+                <p>
+                    Hello there! I'm Sanskar Siddharth, a second year Electrical Engineering and Computer Science at UC Berkeley.
+                    I'm specifically interested in Machine Learning, Quantitative Finance, Software Engineering, and Extended Reality.
+                    Outside of my technical interests, photography, music, and reading are my primary destress activities.
+                    I also love running and playing sports in general. I’m a big fan of catching up on sleep, spending time with my friends, and watching an unnecessary amount of Youtube and Netflix. 
+                    Ever since quarantine, I’ve become an aspiring chef. I’m able to comfortable make paninis now, so it’s a very slow journey but we’ll get there.
+                </p>
+            </div>
+            <div class="about-links">
+                <a href="https://www.linkedin.com/in/sanskarsiddharth/" target="_blank">
+                    <img class=icon src="files/linkedin.png" title="Linkedin Icon By FreePik" alt="Sanskar Siddharth Linkedin Link">
+                </a>
+
+                <a href="https://github.com/sqnskqr" target="_blank">
+                    <img class="icon github" src="files/github-character.png" title="Github Icon By David Gandy" alt="Sanskar Siddharth Github Link">
+                </a>
+
+                <a class=resume href="https://drive.google.com/file/d/1dCD8gZ0UR1kbVF6f_2U7UjhFwtrDtdKx/view?usp=sharing" target="_blank">View Resume </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="right-about">
+        <h3 class="mood-text">Mood and Mindset</h3>
+        <div class="mood-content">
+            <div class="book">
+                <h3 class="book-text">Currently Reading</h3>
+                <img class=currBook src="files/currentbook.jpeg" alt="Book:When Break Becomes Air"/>
+                    <a class=book-title href="https://www.goodreads.com/book/show/25899336-when-breath-becomes-air" target="_blank">
+                        When Breath Becomes Air, Paul&nbsp;Kalanithi
+                    </a>
+            </div>
+            <div class=music>
+                <h3 class="music-text">Music on Repeat</h3>
+                <iframe class="spotify" src="https://open.spotify.com/embed/album/5SKnXCvB4fcGSZu32o3LRY?theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+
+            </div>
+        </div>
+    </div>
+        
+    </div>
 </div>
 
 <!--Technical Projects-->
@@ -127,24 +153,6 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/8i1GKUuBrd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>Video Not Supported</iframe>
 
         </figure>
-    <h2>Current Mood</h2>
-    <table>
-        <tr>
-            <th>What I'm reading</th>
-            <th>What's Playing on Repeat</th>
-        </tr>
-        <tr>
-            <td>
-                <img src="files/currentbook.jpeg" alt="Image of When Breath Becomes Air" height="340">
-            </td>
-            <td rowspan="2">
-                <iframe src="https://open.spotify.com/embed/album/5SKnXCvB4fcGSZu32o3LRY?utm_source=generator&theme=0" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-            </td>
-        </tr>
-        <tr>
-            <td><a href="https://en.wikipedia.org/wiki/When_Breath_Becomes_Air" target="_blank">When Breath Becomes Air, <br> Paul Kalanithi</a></td>
-        </tr>
-    </table>
 </div>
 <footer>
     <br>

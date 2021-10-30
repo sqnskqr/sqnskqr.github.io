@@ -1,5 +1,5 @@
 * {
-    font-family: Palatino;
+    font-family: Palatino, serif;
     color: white;
     text-align: center;
 }
@@ -12,6 +12,7 @@ body {
     height: 60vh;
     width: 70vw;
     position: absolute;
+    animation:  fadeInLeft 2s;
 }
 
 .landing {
@@ -31,6 +32,7 @@ body {
     flex-direction: column;
     font-size: 5vmin;
     text-align: center;
+    animation: fadeInRight 3s;
     
 }
 
@@ -58,9 +60,146 @@ body {
 
 #About-Me {
     margin-top: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#aboutPic {
+    /*height: 65vmin;
+    width: 90vmin;
+    min-height: 200px;
+    min-width: 277px; 
+    box-shadow: */
+    width: 37vw;
+    height: 55.5vw;
+     box-shadow:
+    -2vmin 2vmin #EBA487,
+     2vmin -2vmin white;
+     margin: 3vmin;
+
+}
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 40vw;
+    min-width: 300px;
+    margin-left: 10%;
+    margin-right: 0%;
+}
+
+.left-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.description {
+    font-size: 1.2vw;
+    line-height: 2vw;
+    word-spacing: .1vmin;
+    margin: 0%;
+    padding: 0% 1vmin;
+}
+.about-me-text {
+    margin: 0%;
+    padding: 1vmin;
+    font-size: 5vmin;
+    background-color: #c187eb;
+    box-shadow: -1vmin 1vmin #ebd587;
+}
+.about-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5vmin;
+}
+
+.resume {
+    margin: .4vmin 1vmin 2vmin 1vmin;
+}
+
+.icon {
+    height: 4vmin;
+    width: 4vmin;
+    filter: invert(100%);
+    margin: .2vmin 1vmin 2vmin 1vmin;
+}
+
+.github {
+    padding-top: .5vmin;
+}
+
+.right-about {
+    position: relative;
+    width: 30vw;
+    background-color: #EBA487;
+    min-width: 450px;
+    padding-right: 2vmin;
+    margin-left: 1%;
+}
+
+.mood-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.currBook {
+    height: 20vmin;
+    width: 10vmin;
+}
+
+.spotify {
+    padding: 0;
+    margin: 1vmin;
 }
 
 @keyframes blinker3 { to { opacity: 0; } }
+
+@keyframes fadeInRight {
+    0% {
+       opacity: 0;
+       transform: translateX(20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
+ @keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
+ @keyframes fadeInUp {
+    0% {
+       opacity: 0;
+       transform: translateY(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ } 
+
+ 
+ 
 
 /*
 .top-accent {
