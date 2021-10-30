@@ -73,10 +73,11 @@ body {
     min-width: 277px; 
     box-shadow: */
     width: 37vw;
-    min-width: none;
+    min-width: 500px;
+    min-height: 750px;
     height: 55.5vw;
      box-shadow:
-     2vmin -2vmin 5px white;
+     2vmin -2vmin white;
      margin: 3vmin;
 
 }
@@ -87,7 +88,7 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
     width: 40vw;
-    min-width: 600px;
+    min-width: 700px;
 }
 
 .left-about {
@@ -99,7 +100,7 @@ body {
 
 }
 .description {
-    font-size: 1.46vw;
+    font-size: 1.54vw;
     line-height: 2vw;
     word-spacing: .1vmin;
     margin: 0%;
