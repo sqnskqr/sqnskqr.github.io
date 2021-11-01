@@ -80,12 +80,12 @@ body {
     min-width: 277px; 
     box-shadow: */
     width: 37vw;
-    min-width: 500px;
+    min-width: 540px;
     min-height: 750px;
     height: 55.5vw;
-     box-shadow:
-     2vmin -2vmin white;
-     margin: 3vmin;
+    margin: 5.5vmax;
+    box-shadow:
+    2vmin -2vmin white;
 
 }
 .about-content {
@@ -96,6 +96,7 @@ body {
     flex-direction: row;
     width: 40vw;
     min-width: 700px;
+    margin-top: 2vmax;
 }
 
 .left-about {
@@ -108,10 +109,10 @@ body {
 }
 .description {
     word-spacing: .1vmin;
-    margin: 0%;
-    padding: 0% 1vmin;
     margin-top: 40px;
-    line-height: 30px;
+    line-height: 2.2vmax;
+    font-size: 1.6vmax;
+    font-style: oblique;
 }
 .about-me-text {
     margin: 0%;
@@ -150,33 +151,54 @@ body {
     position: relative;
     width: 30vw;
     background-color: #EBA487;
-    min-width: 500px;
+    min-width: 100%;
     padding: 2vmin;
-    margin: 1%;
-    margin-top: 3%;
+    margin: 2vmax;
+    font-size: 1.4vmax;
+    max-height: 80vh;
 }
 
 .mood-content {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items:flex-start;
     justify-content: center;
+    flex-wrap: wrap;
+
 }
 .book {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     justify-content: center; 
+}
+
+.reading {
+    color:#a487eb;
+    font-size: .9vmax;
+    padding: 4px;
 }
 
 
 .spotify {
     padding: 0;
     margin: 1vmin;
+    max-height: 10vmin;
+    font-size: 2vmax;
 }
 #Technical-Projects {
     margin-top: 30vh;
 }
+h3 {
+    padding: 0%;
+    margin: 0%;
+}
+
+.music {
+    min-width: 400px;
+}
+
 
 @keyframes blinker3 { to { opacity: 0; } }
 
