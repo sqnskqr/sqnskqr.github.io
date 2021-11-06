@@ -10,7 +10,9 @@ a:hover {
 
 body {
     background-color: skyblue;
+    
 }
+
 .top-accent {
     background-color: white;
     height: 60vh;
@@ -80,8 +82,8 @@ body {
     min-width: 277px; 
     box-shadow: */
     width: 37vw;
-    min-width: 540px;
-    min-height: 750px;
+    min-width: 450px;
+    min-height: 633px;
     height: 55.5vw;
     margin: 5.5vmax;
     box-shadow:
@@ -108,10 +110,10 @@ body {
 
 }
 .description {
-    word-spacing: .1vmin;
+    word-spacing: .1vm;
     margin-top: 40px;
     line-height: 2.2vmax;
-    font-size: 1.6vmax;
+    font-size: 2vmax;
     font-style: oblique;
 }
 .about-me-text {
@@ -141,6 +143,7 @@ body {
 
 .icon:hover {
     filter: invert(99%) sepia(21%) saturate(2800%) hue-rotate(322deg) brightness(94%) contrast(95%);
+    display: inline-block;
 }
 
 .github {
@@ -188,11 +191,16 @@ body {
     font-size: 2vmax;
 }
 #Technical-Projects {
-    margin-top: 30vh;
+    margin-top: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.techHeading {
+    font-size: 250%;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -212,7 +220,7 @@ h3 {
     justify-content: center;
     background-color: #a487eb;
     box-shadow: 2vh 2vw #ebd587;
-    margin: 6vw;
+    margin-bottom: 6vw;
     height: 60%;
     width: 80%;
 }
@@ -251,6 +259,65 @@ h3 {
     line-height: 110%;
 }
 
+.InterestsContent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #EBA487;
+    width: 95%;
+    margin-left: 2.5%;
+    min-width: 400px;
+
+}
+
+
+.Photography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.VideoCreation {
+    width: 560px; 
+    height: 315px;
+}
+
+.PhotographyImage {
+    max-width: 560px; 
+    max-height: 315px;
+    min-width: 300px;
+    min-height: 200px;
+    padding: 0vh 2vw 0vh 2vw;
+}
+
+.iconVSCO {
+    height: 3vmin;
+    width: 3vmin;
+    filter: invert(100%);
+}
+.MoreOn {
+    padding-bottom: 2vh;
+    padding-top: 1vh;
+}
+
+.misc {
+    margin-top: 3vh;
+    background-color: black;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 2vh;
+}
+
+.contact {
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+}
 
 
 @keyframes blinker3 { to { opacity: 0; } }
