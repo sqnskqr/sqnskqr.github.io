@@ -189,7 +189,12 @@ body {
 }
 #Technical-Projects {
     margin-top: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 h3 {
     padding: 0%;
     margin: 0%;
@@ -198,6 +203,54 @@ h3 {
 .music {
     min-width: 400px;
 }
+
+.BoxP {
+    display: flex;
+    flex-direction: column;
+    flex-wrap:nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #a487eb;
+    box-shadow: 2vh 2vw #ebd587;
+    margin: 6vw;
+    height: 60%;
+    width: 80%;
+}
+
+.DetailsP {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.WrittenP {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50vw;
+    max-width: 450px;
+    padding: 0 5vw;
+    
+    
+}
+
+
+.ImageP {
+    width: 60vw;
+    max-width: 300px;
+    padding: 1vw;
+}
+
+.DescriptionP {
+    font-size: 120%;
+    font-style: oblique;
+    line-height: 110%;
+}
+
 
 
 @keyframes blinker3 { to { opacity: 0; } }
