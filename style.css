@@ -93,7 +93,7 @@ html {
     min-width: 450px;
     min-height: 633px;
     height: 55.5vw;
-    margin: 5.5vmax;
+    margin: 4vmax;
     box-shadow:
     2vmin -2vmin white;
 
@@ -191,7 +191,11 @@ html {
     padding: 4px;
 }
 
-
+.BookList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 .spotify {
     padding: 0;
     margin: 1vmin;
@@ -324,6 +328,7 @@ h3 {
     box-sizing: border-box;
     width: 100%;
     margin-top: 4vh;
+    padding-bottom: 2vh;
 }
 
 
