@@ -10,7 +10,15 @@ a:hover {
 
 body {
     background-color: skyblue;
-    
+    width: inherit;
+    height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
 }
 
 .top-accent {
@@ -259,16 +267,19 @@ h3 {
     line-height: 110%;
 }
 
+#Personal-Interests {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .InterestsContent {
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     background-color: #EBA487;
-    width: 95%;
-    margin-left: 2.5%;
-    min-width: 400px;
+    width:70%;
 
 }
 
@@ -278,18 +289,18 @@ h3 {
     flex-direction: column;
     align-items: center;
     justify-content: start;
+
 }
 
 .VideoCreation {
     width: 560px; 
     height: 315px;
+    padding: 0vh 2vw 0vh 2vw;
 }
 
 .PhotographyImage {
-    max-width: 560px; 
-    max-height: 315px;
-    min-width: 300px;
-    min-height: 200px;
+    width: 560px; 
+    height: 315px;
     padding: 0vh 2vw 0vh 2vw;
 }
 
@@ -303,13 +314,17 @@ h3 {
     padding-top: 1vh;
 }
 
-.misc {
-    margin-top: 3vh;
-    background-color: black;
-    width: 100%;
-    box-sizing: border-box;
-    margin-bottom: 2vh;
+.MoreOn:hover {
+    color: #ebd587;
 }
+
+.misc {
+    background-color: black;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 4vh;
+}
+
 
 .contact {
     list-style-type: none;
